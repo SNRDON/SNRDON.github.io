@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alessandro Sepe</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="img/Favicon.ico" type="ico" />
+    <!-- Josefin Sans -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Josefin Sans"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Josefin Sans";
+      }
+    </style>
+  </head>
+
+  <header>
+    <label
+      for="menu-toggle"
+      class="menu-icon"
+      onclick="this.classList.toggle('clicked')"
+    >
+      <img
+        id="hamburger"
+        src="img/Hamburger_icon.svg"
+        alt="Hamburger Menu Icon"
+      />
+    </label>
+    <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+    <nav class="menu-contacts">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <body background="img/Background.svg">
+    <div class="container-fluid-contacts">
+      <section class="contact mb-50 bgcolor-3 border-rounded">
+        <div class="contact-header flex-center">
+          <h2>Contatti</h2>
+        </div>
+        <div class="contact-info">
+          <p class="mb-30">
+            Se sei qui, devo davvero aver fatto buona impressione! :)
+          </p>
+          <div class="mb-40">
+            Tel: <a href="tel:3348030198" class="tel">334-803-01-98</a>
+          </div>
+          <div id="icons" class="flex">
+            <a
+              target="_blank"
+              rel="noopener"
+              href="https://www.instagram.com/snrdon_/?hl=it"
+              class="social-link"
+              ><img style="width: 70%" src="img/Instagram.svg" alt="Instagram"
+            /></a>
+            <a
+              target="_blank"
+              rel="noopener"
+              href="https://www.behance.net/alessandro-sepe-"
+              class="social-link"
+              ><img style="width: 70%" src="img/Behance.svg" alt="Behance"
+            /></a>
+            <a
+              target="_blank"
+              rel="noopener"
+              href="https://linkedin.com/in/alessandro-sepe-/"
+              class="social-link"
+              ><img style="width: 70%" src="img/Linkedin.svg" alt="LinkedIn"
+            /></a>
+            <a
+              target="_blank"
+              rel="noopener"
+              href="https://github.com/SNRDON"
+              class="social-link"
+              ><img
+                id="github"
+                style="width: 70%"
+                src="img/GitHub.svg"
+                alt="Logo di Github"
+            /></a>
+          </div>
+        </div>
+        <div class="contact-form-container">
+          <form
+            id="contact-form"
+            action="mailto:alessandrossepe@gmail.com"
+            method="POST"
+            class="contact-form"
+          >
+            <input type="text" name="name" placeholder="Nome" required="" />
+            <input type="email" name="email" placeholder="Email" required="" />
+            <textarea
+              rows="5"
+              name="message"
+              class="mb-30"
+              placeholder="Messaggio"
+              required=""
+            ></textarea>
+            <button type="submit" class="btn-submit">Invia</button>
+          </form>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>

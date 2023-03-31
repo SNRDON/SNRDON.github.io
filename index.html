@@ -18,6 +18,29 @@
     </style>
   </head>
 
+  <header>
+    <label
+      for="menu-toggle"
+      class="menu-icon"
+      onclick="this.classList.toggle('clicked')"
+    >
+      <img
+        id="hamburger"
+        src="img/Hamburger_icon.svg"
+        alt="Hamburger Menu Icon"
+      />
+    </label>
+    <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+    <nav class="menu">
+      <ul>
+        <li id="menu-description">
+          (salta alle conclusioni e scrivimi subito)
+        </li>
+        <li><a href="contacts.html">Contatti</a></li>
+      </ul>
+    </nav>
+  </header>
+
   <body background="img/Background.svg">
     <audio class="mb-80" id="player" controls autoplay src="Song.mp3">
       SÑRDON - componimento musicale
@@ -27,7 +50,11 @@
       <section
         class="site-header-footer flex-center mb-50 bgcolor-1 border-rounded"
       >
-        <img id="profile-pic" src="img/Profile-Pic.svg" alt="Profile Picture" />
+        <img
+          id="profile-pic"
+          src="img/Profile-Pic.svg"
+          alt="Immagine del profilo"
+        />
         <h1>Ciao, sono <br />Alessandro Sepe!</h1>
         <div>
           <h3 id="lascia">Lascia che ti rubi qualche istante...</h3>
@@ -71,29 +98,46 @@
           <div class="row1">
             <div class="column1">
               <a
+                target="_blank"
+                rel="noopener"
                 href="https://www.behance.net/gallery/161596885/Il-mio-tocco-per-Unobravo"
-                ><img src="img/unobravo.png" alt="unobravo" style="width: 100%"
-              /></a>
-            </div>
-            <div class="column1">
-              <a
-                href="https://www.behance.net/gallery/164200727/3000-battute-su-The-Last-of-Us"
                 ><img
-                  src="img/The Last of Us.png"
-                  alt="The Last of Us"
+                  src="img/unobravo.png"
+                  alt="unobravo, servizio di terapia psicologica online"
                   style="width: 100%"
               /></a>
             </div>
             <div class="column1">
               <a
-                href="https://www.behance.net/gallery/161607199/Il-mio-tocco-per-Jojob"
-                ><img src="img/Jojob.png" alt="Jojob" style="width: 100%"
+                target="_blank"
+                rel="noopener"
+                href="https://www.behance.net/gallery/164200727/3000-battute-su-The-Last-of-Us"
+                ><img
+                  src="img/The Last of Us.png"
+                  alt="The Last of Us, serie televisiva di HBO tratta dall'omonimo videogioco"
+                  style="width: 100%"
               /></a>
             </div>
             <div class="column1">
               <a
+                target="_blank"
+                rel="noopener"
+                href="https://www.behance.net/gallery/161607199/Il-mio-tocco-per-Jojob"
+                ><img
+                  src="img/Jojob.png"
+                  alt="Jojob, servizio italiano di commute e ride sharing"
+                  style="width: 100%"
+              /></a>
+            </div>
+            <div class="column1">
+              <a
+                target="_blank"
+                rel="noopener"
                 href="https://www.behance.net/gallery/161606533/Blog-Post-La-carne-sintetica-di-Kras"
-                ><img src="img/Kreas.png" alt="Kreas" style="width: 100%"
+                ><img
+                  src="img/Kreas.png"
+                  alt="Kreas, la carne sintetica Made in Italy"
+                  style="width: 100%"
               /></a>
             </div>
           </div>
@@ -202,7 +246,7 @@
               <img
                 class="card-img"
                 src="img/Start2Impact.svg"
-                alt="Start2Impact"
+                alt="Logo di Start2Impact University, Master e Corsi in materie del digitale"
               />
               <div>
                 <h4>Start2Impact</h4>
@@ -210,7 +254,11 @@
               </div>
             </div>
             <div class="card">
-              <img class="card-img" src="img/Pearson.svg" alt="Pearson" />
+              <img
+                class="card-img"
+                src="img/Pearson.svg"
+                alt="Logo di Pearson Education, edizioni e corsi specializzati"
+              />
               <div>
                 <h4>Pearson College</h4>
                 <p>BTEC Course, Music <br />Technology</p>
@@ -219,9 +267,15 @@
           </div>
           <div class="columncntr">
             <div class="card">
-              <img class="card-img" src="img/Coursera.svg" alt="Coursera" />
+              <img
+                class="card-img"
+                src="img/Coursera.svg"
+                alt="Logo di Coursera, corsi specializzzati 100% online"
+              />
               <div>
                 <a
+                  target="_blank"
+                  rel="noopener"
                   href="https://www.coursera.org/account/accomplishments/professional-cert/85DSYUSDHTZE"
                   target="_blank"
                   ><h4>Google Coursera</h4></a
@@ -233,7 +287,7 @@
               <img
                 class="card-img"
                 src="img/Orientale.svg"
-                alt="Università di Napoli L'Orientale"
+                alt="Logo dell'Università di Napoli L'Orientale"
               />
               <div>
                 <h4>L'Orientale</h4>
@@ -243,9 +297,11 @@
           </div>
           <div class="columndx">
             <div class="card">
-              <img class="card-img" src="img/Google.svg" alt="Google" />
+              <img class="card-img" src="img/Google.svg" alt="Logo di Google" />
               <div>
                 <a
+                  target="_blank"
+                  rel="noopener"
                   href="https://learndigital.withgoogle.com/digitaltraining/validate-certificate-code"
                   target="_blank"
                   ><h4>Google</h4>
@@ -257,7 +313,7 @@
               <img
                 class="card-img"
                 src="img/Multicenter.svg"
-                alt="Multicenter School"
+                alt="Logo di Multicenter School, istituto di educazione superiore paritaria"
               />
               <div>
                 <h4>Multicenter School</h4>
@@ -322,25 +378,31 @@
         <div class="fun flex-center">
           <div class="row2">
             <div class="column2">
-              <a href="https://open.spotify.com/artist/3mxCtBgw4uXoYypzV6N2S2"
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://open.spotify.com/artist/3mxCtBgw4uXoYypzV6N2S2"
                 ><img
                   src="img/SNRDON.svg"
-                  alt="SÑRDON - Spotify"
+                  alt="foto di SÑRDON, il mio alter-ego musicale - Spotify"
                   style="width: 100%"
               /></a>
             </div>
             <div class="column2">
-              <a href="https://www.youtube.com/@latoalatob"
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://www.youtube.com/@latoalatob"
                 ><img
                   src="img/Podcast.svg"
-                  alt="Lato A Lato B - Il Podcast"
+                  alt="Lato A Lato B - Il Podcast di natura musicale"
                   style="width: 100%"
               /></a>
             </div>
             <div class="column2">
               <img
                 src="img/Football.svg"
-                alt="Allenatore di calcio"
+                alt="Io al bordo di un campo di calcio, allenando futuri campioni"
                 style="width: 100%"
               />
             </div>
@@ -369,19 +431,45 @@
           </div>
           <div id="icons" class="flex">
             <a
+              target="_blank"
+              rel="noopener"
               href="https://www.instagram.com/snrdon_/?hl=it"
               class="social-link"
-              ><img style="width: 70%" src="img/Instagram.svg" alt="Instagram"
+              ><img
+                style="width: 70%"
+                src="img/Instagram.svg"
+                alt="Logo di Instagram"
             /></a>
             <a
+              target="_blank"
+              rel="noopener"
               href="https://www.behance.net/alessandro-sepe-"
               class="social-link"
-              ><img style="width: 70%" src="img/Behance.svg" alt="Behance"
+              ><img
+                style="width: 70%"
+                src="img/Behance.svg"
+                alt="Logo di Behance"
             /></a>
             <a
+              target="_blank"
+              rel="noopener"
               href="https://linkedin.com/in/alessandro-sepe-/"
               class="social-link"
-              ><img style="width: 70%" src="img/Linkedin.svg" alt="LinkedIn"
+              ><img
+                style="width: 70%"
+                src="img/Linkedin.svg"
+                alt="Logo di LinkedIn"
+            /></a>
+            <a
+              target="_blank"
+              rel="noopener"
+              href="https://github.com/SNRDON"
+              class="social-link"
+              ><img
+                id="github"
+                style="width: 70%"
+                src="img/GitHub.svg"
+                alt="Logo di Github"
             /></a>
           </div>
         </div>
