@@ -668,6 +668,9 @@ button {
   #profile-pic {
     width: 100px;
     height: 100px;
+    position: absolute;
+    top: 20px;
+    left: 27%;
   }
 
   .job-box {
